@@ -16,7 +16,7 @@ export default function FaqSection() {
           Quick Questions? Quick Answers!
         </h2>
         <p className='text-gray-300 mb-10'>
-          The stuff you're probably wondering about (we get these questions all
+          The stuff you&apos;re probably wondering about (we get these questions all
           the time!)
         </p>
 
@@ -29,7 +29,7 @@ export default function FaqSection() {
               Wait, is ₦150,000 really ALL I pay?
             </AccordionTrigger>
             <AccordionContent className='text-gray-300'>
-              ✅ Yes, that’s the total cost. No hidden charges or extra fees.
+              ✅ Yes, that&apos;res the total cost. No hidden charges or extra fees.
             </AccordionContent>
           </AccordionItem>
 
@@ -54,7 +54,7 @@ export default function FaqSection() {
               Do I get to pick which website I like best?
             </AccordionTrigger>
             <AccordionContent className='text-gray-300'>
-              🎨 Yes, you’ll have options and can choose the design that suits
+              🎨 Yes, you&apos;rell have options and can choose the design that suits
               you.
             </AccordionContent>
           </AccordionItem>

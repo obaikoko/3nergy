@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 export default function Navbar() {
@@ -5,7 +6,7 @@ export default function Navbar() {
     <nav className='bg-[#0A0F1C] text-white px-6 py-4 flex items-center justify-between'>
       {/* Logo */}
       <div className='flex items-center gap-2'>
-        <img src='/logo.png' alt='AISites.ng' className='w-8 h-8' />
+        <Image height={40} width={40} src='/logo.png' alt='AISites.ng' className='w-8 h-8' />
         <span className='text-lg font-bold'>
           <span className='text-green-500'>AISites</span>.ng
         </span>

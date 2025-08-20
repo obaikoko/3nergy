@@ -31,7 +31,7 @@ const HowItWork = () => {
           <h3 className='font-bold mb-2'>2. We Create 3 Options for You</h3>
           <p className='text-gray-400 text-sm'>
             Our team builds 3 different professional website designs based on
-            your information. You'll see all your options within 2 days.
+            your information. You&apos;ll see all your options within 2 days.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const HowItWork = () => {
           <h3 className='font-bold mb-2'>3. Choose Your Favorite</h3>
           <p className='text-gray-400 text-sm'>
             Review all 3 designs and pick the one you love most. If none feel
-            right, you don't pay anything - no risk to you.
+            right, you don&apos;t pay anything - no risk to you.
           </p>
         </div>
 
@@ -52,8 +52,9 @@ const HowItWork = () => {
           </div>
           <h3 className='font-bold mb-2'>4. Pay & Go Live</h3>
           <p className='text-gray-400 text-sm'>
-            Once you choose your favorite design, complete payment and we'll
-            deploy your website immediately. You're live in minutes.
+            Once you choose your favorite design, complete payment and
+            we&apos;ll deploy your website immediately. You&apos;re live in
+            minutes.
           </p>
         </div>
       </div>

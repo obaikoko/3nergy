@@ -11,7 +11,7 @@ export default function PricingSection() {
           Stop Appearing Un-professional
         </h2>
         <p className='text-gray-400 mt-2 max-w-2xl mx-auto'>
-          Your competitors are getting customers online while you're still
+          Your competitors are getting customers online while you&apos;re still
           waiting. Choose your plan and get ahead today!
         </p>
       </div>

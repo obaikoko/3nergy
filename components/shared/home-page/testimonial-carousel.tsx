@@ -41,7 +41,7 @@ export default function TestimonialCarousel() {
       nextSlide();
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   const prevSlide = () => {
     setCurrent((prev) => (prev === 0 ? maxIndex : prev - 1));

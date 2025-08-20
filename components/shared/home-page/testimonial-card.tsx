@@ -14,7 +14,7 @@ export default function TestimonialCard({
   return (
     <Card className='border-0 text-white rounded-2xl shadow-lg p-4 h-full'>
       <CardContent>
-        <p className='italic text-lg mb-4'>"{quote}"</p>
+        <p className='italic text-lg mb-4'>&quot;{quote}&quot;</p>
         <p className='font-bold'>— {name}</p>
         <p className='text-gray-400'>{business}</p>
       </CardContent>

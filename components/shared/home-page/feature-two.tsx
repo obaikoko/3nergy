@@ -8,7 +8,7 @@ export default function FeatureTwo() {
         Why Nigerian Businesses Choose Us
       </h2>
       <p className='text-xl text-gray-300 mt-3 max-w-2xl mx-auto'>
-        We're not just another website builder. We're your local partner in
+        We&apos;re not just another website builder. We&apos;re your local partner in
         digital success with a smarter approach.
       </p>
 
