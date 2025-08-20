@@ -33,8 +33,11 @@ const testimonials = [
 
 export default function TestimonialCarousel() {
   const [current, setCurrent] = useState(0);
-  const visibleCards = 2; // always 2 visible
-  const maxIndex = Math.max(0, testimonials.length - visibleCards); // last valid starting index
+
+  // ✅ 1 card on small screens, 2 cards on md+
+  const visibleCards =
+    typeof window !== 'undefined' && window.innerWidth < 768 ? 1 : 2;
+  const maxIndex = Math.max(0, testimonials.length - visibleCards);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -58,7 +61,7 @@ export default function TestimonialCarousel() {
         style={{ transform: `translateX(-${current * (100 / visibleCards)}%)` }}
       >
         {testimonials.map((t, i) => (
-          <div key={i} className='w-1/2 flex-shrink-0 px-4'>
+          <div key={i} className='w-full md:w-1/2 flex-shrink-0 px-4'>
             <TestimonialCard {...t} />
           </div>
         ))}
