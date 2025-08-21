@@ -4,11 +4,11 @@ import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 
 export default function SuccessStories() {
   return (
-    <section className='bg-[#0A0D12] text-white py-20'>
+    <section className='bg-background text-foreground py-20'>
       <div className='container mx-auto px-4'>
         {/* Tag */}
         <div className='text-center mb-6'>
-          <div className='inline-block bg-green-900 text-green-200 text-sm px-3 py-1 rounded-full'>
+          <div className='inline-block bg-green-100 text-green-700 text-sm px-3 py-1 font-bold rounded-full'>
             Real Success Stories
           </div>
         </div>
@@ -17,7 +17,7 @@ export default function SuccessStories() {
         <h2 className='text-3xl md:text-4xl font-bold text-center'>
           See How We Transform Businesses
         </h2>
-        <p className='mt-4 text-gray-300 text-center max-w-3xl mx-auto'>
+        <p className='mt-4  text-center max-w-3xl mx-auto'>
           Real Nigerian businesses, real challenges, real results. Each client
           got 3 website options and chose their favorite.
         </p>
@@ -28,21 +28,21 @@ export default function SuccessStories() {
           <div>
             <h3 className='text-2xl font-bold'>KemiKollections</h3>
             <p className='text-gray-400'>Kemi Aliu • Abuja</p>
-            <span className='inline-block mt-3 bg-gray-700 text-gray-200 text-xs px-3 py-1 rounded-full'>
+            <span className='inline-block mt-3  text-xs px-3 py-1 rounded-full'>
               Contemporary African Fashion
             </span>
 
             {/* Challenge Box */}
             <div className='mt-6 border border-l-4 border-l-orange-400 border-gray-700 rounded-lg p-4'>
               <p className='text-orange-400 font-semibold'>The Challenge</p>
-              <p className='text-gray-300  mt-1'>
+              <p className=' mt-1'>
                 Needed to establish an online presence that reflects her modern
                 take on traditional African fashion
               </p>
             </div>
             <div className='mt-6 border border-gray-700 rounded-lg p-4'>
               <p className=' font-semibold'>The Story </p>
-              <p className='text-gray-300 mt-1'>
+              <p className=' mt-1'>
                 Kemi is a 28-year-old fashion designer with a degree in design
                 and a passion for African culture. She creates ready-to-wear and
                 bespoke outfits using Ankara and Adire fabrics with a modern
@@ -54,10 +54,10 @@ export default function SuccessStories() {
 
             {/* Nav Arrows */}
             <div className='flex gap-3 mt-6'>
-              <button className='bg-gray-800 p-2 rounded-full hover:bg-gray-700'>
+              <button className=' p-2 rounded-full '>
                 <ChevronLeft className='w-5 h-5' />
               </button>
-              <button className='bg-gray-800 p-2 rounded-full hover:bg-gray-700'>
+              <button className=' p-2 rounded-full '>
                 <ChevronRight className='w-5 h-5' />
               </button>
             </div>
@@ -66,7 +66,7 @@ export default function SuccessStories() {
           {/* Right: Design Response */}
           <div>
             <h4 className='font-semibold text-lg'>Our Design Response</h4>
-            <p className='text-gray-300 text-sm'>
+            <p className=' text-sm'>
               We created three distinct visual directions. The client chose
               their favorite.
             </p>
@@ -75,16 +75,14 @@ export default function SuccessStories() {
             <div className='flex flex-wrap gap-3 mt-4'>
               <Button
                 variant='outline'
-                className='bg-transparent border-gray-600 text-white hover:bg-gray-800'
+                className='bg-transparent border-gray-600 '
               >
                 Heritage Elegance
               </Button>
-              <Button className='bg-green-700 hover:bg-green-800 text-white'>
-                Modern Couture
-              </Button>
+              <Button>Modern Couture</Button>
               <Button
                 variant='outline'
-                className='bg-transparent border-gray-600 text-white hover:bg-gray-800'
+                className='bg-transparent border-gray-600 '
               >
                 Cultural Chic
               </Button>
@@ -97,7 +95,7 @@ export default function SuccessStories() {
                 <span className='w-3 h-3 bg-red-500 rounded-full'></span>
                 <span className='w-3 h-3 bg-yellow-500 rounded-full'></span>
                 <span className='w-3 h-3 bg-green-500 rounded-full'></span>
-                <span className='ml-4 text-gray-300 text-xs truncate'>
+                <span className='ml-4  text-xs truncate'>
                   kemikollections.com.ng
                 </span>
               </div>

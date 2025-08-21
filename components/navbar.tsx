@@ -1,33 +1,27 @@
+import Link from 'next/link';
 import Image from 'next/image';
-import React from 'react';
+import { APP_NAME } from '@/lib/constants';
+import Menu from '@/components/shared/header/menu';
+import ModeToggle from './shared/header/mode-toggle';
 
-export default function Navbar() {
+const Header = () => {
   return (
-    <nav className='bg-[#0A0F1C] text-white px-6 py-4 flex items-center justify-between'>
-      {/* Logo */}
-      <div className='flex items-center gap-2'>
-        <Image height={40} width={40} src='/logo.png' alt='AISites.ng' className='w-8 h-8' />
-        <span className='text-lg font-bold'>
-          <span className='text-green-500'>AISites</span>.ng
-        </span>
+    <header className='fixed top-0 left-0 w-full z-50 bg-background text-foreground'>
+      <div className='mx-auto max-w-screen-xl px-4 flex justify-between items-center py-2'>
+        <Link href='/' className='flex items-center space-x-2'>
+          <Image
+            src='/images/logo.png'
+            alt={`${APP_NAME} logo`}
+            width={48}
+            height={48}
+            priority
+          />
+        </Link>
+        <ModeToggle />
+        <Menu />
       </div>
-
-      {/* Links */}
-      <ul className='hidden md:flex items-center gap-8 text-sm'>
-        <li>Case Studies</li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Why Us ▾</li>
-        <li>Contact</li>
-      </ul>
-
-      {/* Actions */}
-      <div className='flex items-center gap-4'>
-        <button className='text-sm'>Sign In</button>
-        <button className='bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded'>
-          Get Started Now
-        </button>
-      </div>
-    </nav>
+    </header>
   );
-}
+};
+
+export default Header;

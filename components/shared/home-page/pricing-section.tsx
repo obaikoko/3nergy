@@ -2,15 +2,15 @@ import PricingCard from './pricing-card';
 
 export default function PricingSection() {
   return (
-    <section className='py-20 bg-[#0b0f19] text-center'>
+    <section className='py-20  text-center'>
       <div className='mb-10'>
-        <span className='bg-green-700 text-white px-4 py-1 rounded-full text-sm font-medium'>
+        <span className='bg-green-700  px-4 py-1 rounded-full text-sm font-medium'>
           Choose Your Plan
         </span>
         <h2 className='text-3xl md:text-4xl font-bold mt-4'>
           Stop Appearing Un-professional
         </h2>
-        <p className='text-gray-400 mt-2 max-w-2xl mx-auto'>
+        <p className='text-gray-700 mt-2 max-w-2xl mx-auto'>
           Your competitors are getting customers online while you&apos;re still
           waiting. Choose your plan and get ahead today!
         </p>

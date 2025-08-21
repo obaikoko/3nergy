@@ -3,11 +3,11 @@ import FeatureCard from './feature-card';
 
 export default function FeaturesSection() {
   return (
-    <section className='bg-[#0B132B] py-16 px-6 text-center'>
-      <h2 className='text-3xl md:text-4xl font-bold text-white'>
+    <section className=' py-16 px-6 text-center'>
+      <h2 className='text-3xl md:text-4xl font-bold '>
         Everything You Need to Feel Confident Online
       </h2>
-      <p className='text-gray-300 mt-3 max-w-2xl mx-auto'>
+      <p className=' mt-3 max-w-2xl mx-auto'>
         Stop hiding from potential customers. Get everything you need to
         showcase your business with pride – starting at just ₦150,000
       </p>

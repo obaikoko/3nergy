@@ -2,7 +2,6 @@ import CTASection from '@/components/shared/home-page/cta-section';
 import FaqSection from '@/components/shared/home-page/faq-section';
 import FeaturesSection from '@/components/shared/home-page/feature-section';
 import FeatureTwo from '@/components/shared/home-page/feature-two';
-import Footer from '@/components/shared/home-page/footer';
 import Hero from '@/components/shared/home-page/hero';
 import HowItWork from '@/components/shared/home-page/how-it-work';
 import PricingSection from '@/components/shared/home-page/pricing-section';
@@ -21,7 +20,6 @@ const HomePage = () => {
       <FeatureTwo/>
       <FaqSection/>
       <CTASection/>
-      <Footer/>
     </>
   );
 };

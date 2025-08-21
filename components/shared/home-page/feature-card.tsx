@@ -15,13 +15,13 @@ export default function FeatureCard({
   clientFavorite = false,
 }: FeatureCardProps) {
   return (
-    <Card className='bg-[#0B132B] border border-green-900 rounded-xl shadow-md hover:shadow-lg transition p-6 flex flex-col justify-between'>
+    <Card className=' border border-green-900 rounded-xl shadow-md hover:shadow-lg transition p-6 flex flex-col justify-between'>
       <CardContent className='flex flex-col items-start gap-4'>
-        <div className='bg-[#1C1F2E] p-3 rounded-lg'>{icon}</div>
-        <h3 className='text-lg font-bold text-white'>{title}</h3>
-        <p className='text-gray-300'>{description}</p>
+        <div className=' p-3 rounded-lg'>{icon}</div>
+        <h3 className='text-lg font-bold '>{title}</h3>
+        <p className=''>{description}</p>
         {clientFavorite && (
-          <div className='mt-4 flex items-center gap-2 bg-green-900/60 text-green-400 px-3 py-1 rounded-full text-sm font-medium'>
+          <div className='mt-4 flex items-center gap-2 bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium'>
             ⭐ Client Favorite
           </div>
         )}

@@ -12,7 +12,7 @@ export default function TestimonialCard({
   business,
 }: TestimonialCardProps) {
   return (
-    <Card className='border-0 text-white rounded-2xl shadow-lg p-4 h-full'>
+    <Card className='border-0 bg-background text-foreground rounded-2xl shadow-lg p-4 h-full'>
       <CardContent>
         <p className='italic text-lg mb-4'>&quot;{quote}&quot;</p>
         <p className='font-bold'>— {name}</p>

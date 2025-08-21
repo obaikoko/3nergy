@@ -2,10 +2,10 @@ import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
-    <section className='bg-gradient-to-b from-[#0A0D12] to-[#0A0D12] text-white py-20'>
+    <section className='bg-background text-foreground py-20'>
       <div className='container mx-auto text-center px-4'>
         {/* Tag */}
-        <div className='inline-block bg-green-900 text-green-200 text-sm px-3 py-1 rounded-full mb-6'>
+        <div className='inline-block font-bold bg-green-100 text-green-700 text-sm px-2  rounded-full mb-6'>
           NG Made for Nigerian Businesses
         </div>
 
@@ -18,7 +18,7 @@ export default function Hero() {
         </h1>
 
         {/* Subtext */}
-        <p className='mt-6 text-lg max-w-2xl mx-auto text-gray-300'>
+        <p className='mt-6 text-lg max-w-2xl mx-auto'>
           Professional Nigerian websites that make customers choose{' '}
           <span className='font-bold'>you over your competitors.</span> Built in
           just 2 days.
@@ -35,7 +35,7 @@ export default function Hero() {
           <Button
             size='lg'
             variant='outline'
-            className='border-gray-400 text-black bg-white hover:bg-gray-100 font-semibold px-6'
+            className='border-gray-400 hover:bg-gray-100 font-semibold px-6'
           >
             See Success Stories
           </Button>

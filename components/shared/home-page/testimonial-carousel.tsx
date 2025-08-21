@@ -55,33 +55,40 @@ export default function TestimonialCarousel() {
   };
 
   return (
-    <div className='bg-gray-900 relative w-full max-w-5xl mx-auto overflow-hidden'>
-      <div
-        className='flex transition-transform duration-700 ease-in-out'
-        style={{ transform: `translateX(-${current * (100 / visibleCards)}%)` }}
-      >
-        {testimonials.map((t, i) => (
-          <div key={i} className='w-full md:w-1/2 flex-shrink-0 px-4'>
-            <TestimonialCard {...t} />
-          </div>
-        ))}
+    <>
+      <h2 className='text-center text-gray-400 mb-6 font-extrabold'>
+        TRUSTED BY BUSINESSES ACROSS NIGERIA
+      </h2>
+      <div className='bg-background text-foreground relative w-full max-w-5xl mx-auto overflow-hidden'>
+        <div
+          className='flex transition-transform duration-700 ease-in-out'
+          style={{
+            transform: `translateX(-${current * (100 / visibleCards)}%)`,
+          }}
+        >
+          {testimonials.map((t, i) => (
+            <div key={i} className='w-full md:w-1/2 flex-shrink-0 px-4'>
+              <TestimonialCard {...t} />
+            </div>
+          ))}
+        </div>
+
+        {/* Left Arrow */}
+        <button
+          onClick={prevSlide}
+          className='bg-background text-foreground absolute top-1/2 left-0 transform -translate-y-1/2  p-2 rounded-full shadow-md  transition'
+        >
+          <ChevronLeft size={20} />
+        </button>
+
+        {/* Right Arrow */}
+        <button
+          onClick={nextSlide}
+          className='absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition'
+        >
+          <ChevronRight size={20} />
+        </button>
       </div>
-
-      {/* Left Arrow */}
-      <button
-        onClick={prevSlide}
-        className='absolute top-1/2 left-0 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition'
-      >
-        <ChevronLeft size={20} />
-      </button>
-
-      {/* Right Arrow */}
-      <button
-        onClick={nextSlide}
-        className='absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition'
-      >
-        <ChevronRight size={20} />
-      </button>
-    </div>
+    </>
   );
 }
