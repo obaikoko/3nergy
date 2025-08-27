@@ -13,7 +13,7 @@ export default function Hero() {
         <h1 className='text-4xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto'>
           Finally, A Website That <br />
           <span className='bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent'>
-            Matches Your Own Quality.
+            Matches Your Quality
           </span>
         </h1>
 
