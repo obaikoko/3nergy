@@ -18,7 +18,7 @@ const HowItWork = () => {
           </div>
           <h3 className='font-bold mb-2'>Select Your Preferred Package</h3>
           <p className=' text-sm'>
-            Browse our Standard & Premium Solar Packages to find the setup size that best matches your lifestyle or business needs. Whether it's a basic backup or full energy independence, there's a package for you.
+            Browse our Standard & Premium Solar Packages to find the setup size that best matches your lifestyle or business needs. Whether it&apos;s a basic backup or full energy independence, there&apos;s a package for you.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const HowItWork = () => {
           <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             2
           </div>
-          <h3 className='font-bold mb-2'>Tell Us What You're Powering</h3>
+          <h3 className='font-bold mb-2'>Tell Us What You&apos;re Powering</h3>
           <p className=' text-sm'>
             Share a quick list of your key appliances or equipment. This helps us ensure your chosen package is properly sized to handle your loads efficiently, avoiding underperformance or overspending.
           </p>
@@ -48,7 +48,7 @@ const HowItWork = () => {
           </div>
           <h3 className='font-bold mb-2'>Choose Your Favorite</h3>
           <p className=' text-sm'>
-            Select the option that works best for your budget and goals. No pressure, just the confidence of knowing you're making the right investment.
+            Select the option that works best for your budget and goals. No pressure, just the confidence of knowing you&apos;re making the right investment.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ const HowItWork = () => {
           </div>
           <h3 className='font-bold mb-2'>Pay & Get Installed</h3>
           <p className=' text-sm'>
-            Once confirmed, our certified engineers handle delivery, installation, and testing. You'll be guided every step of the way, with most setups completed in just a few days.
+            Once confirmed, our certified engineers handle delivery, installation, and testing. You&apos;ll be guided every step of the way, with most setups completed in just a few days.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const HowItWork = () => {
           </div>
           <h3 className='font-bold mb-2'>Enjoy Solar Freedom</h3>
           <p className=' text-sm'>
-            Say goodbye to noisy generators and fuel stress. From day one, you'll enjoy reliable, clean, and cost-saving energy — with our support team always a call away.
+            Say goodbye to noisy generators and fuel stress. From day one, you&apos;ll enjoy reliable, clean, and cost-saving energy — with our support team always a call away.
           </p>
         </div>
       </div>

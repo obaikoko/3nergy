@@ -1,7 +1,6 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { Lightbulb, Settings, TrendingUp } from 'lucide-react';
 
 const KnowledgeHub = () => {
   const articles = [

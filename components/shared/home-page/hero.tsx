@@ -19,7 +19,7 @@ export default function Hero() {
 
         {/* Subtext */}
         <p className='mt-6 text-lg max-w-2xl mx-auto'>
-          Solar made simple: Pick a standardized package, request a quote, and we'll tailor it to your exact needs.
+          Solar made simple: Pick a standardized package, request a quote, and we&apos;ll tailor it to your exact needs.
         </p>
 
         {/* CTA Buttons */}

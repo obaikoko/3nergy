@@ -13,10 +13,10 @@ export default function FaqSection() {
     <section className=' py-20 text-center'>
       <div className='max-w-3xl mx-auto px-4'>
         <h2 className='text-3xl md:text-4xl font-bold  mb-4'>
-          Got Questions? We've Got Quick Answers ⚡
+          Got Questions? We&apos;ve Got Quick Answers ⚡
         </h2>
         <p className='text-gray-600 mb-10'>
-          Switching to solar doesn't have to feel complicated. We've made it simple by answering the questions most homeowners and business owners ask.
+          Switching to solar doesn&apos;t have to feel complicated. We&apos;ve made it simple by answering the questions most homeowners and business owners ask.
         </p>
 
         <Accordion type='single' collapsible className='space-y-4'>
@@ -28,7 +28,7 @@ export default function FaqSection() {
               Can solar really power my whole house 24/7?
             </AccordionTrigger>
             <AccordionContent className='text-gray-600'>
-              ✅ Yes — with the right package, you'll enjoy steady power day and night.
+              ✅ Yes — with the right package, you&apos;ll enjoy steady power day and night.
             </AccordionContent>
           </AccordionItem>
 
@@ -37,10 +37,10 @@ export default function FaqSection() {
             className='border-gray-600  rounded-xl  px-4'
           >
             <AccordionTrigger className='text-left  font-medium'>
-              Isn't solar too expensive for the average person?
+              Isn&apos;t solar too expensive for the average person?
             </AccordionTrigger>
             <AccordionContent className='text-gray-600'>
-              💰 It feels big at first, but it's actually an investment — you pay once, then save on fuel and bills for years.
+              💰 It feels big at first, but it&apos;s actually an investment — you pay once, then save on fuel and bills for years.
             </AccordionContent>
           </AccordionItem>
 
@@ -52,7 +52,7 @@ export default function FaqSection() {
               What happens when it rains or at night?
             </AccordionTrigger>
             <AccordionContent className='text-gray-600'>
-              🔋 Your battery bank stores energy so you're covered even when the sun isn't shining.
+              🔋 Your battery bank stores energy so you&apos;re covered even when the sun isn&apos;t shining.
             </AccordionContent>
           </AccordionItem>
 

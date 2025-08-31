@@ -10,7 +10,7 @@ export default function CTASection() {
         ⚡ Power Your Home & Business the Smarter Way
       </h2>
       <p className='mt-4 text-lg  max-w-2xl mx-auto'>
-        With Cesol3nergy's reliable solar solutions, you'll enjoy steady power, lower costs, and a future-ready energy system built just for you.
+        With Cesol3nergy&apos;s reliable solar solutions, you&apos;ll enjoy steady power, lower costs, and a future-ready energy system built just for you.
       </p>
 
       {/* Features Row */}
@@ -43,7 +43,7 @@ export default function CTASection() {
 
       {/* Footer Note */}
       <p className='mt-6 text-gray-400 text-sm'>
-        Ready to Go Solar? Pick a package, request a quote, and let's power your future together.
+        Ready to Go Solar? Pick a package, request a quote, and let&apos;s power your future together.
       </p>
     </section>
   );

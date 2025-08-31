@@ -8,7 +8,7 @@ export default function FeaturesSection() {
         🌟 Why Choose Cesol3nergy?
       </h2>
       <p className=' mt-3 max-w-2xl mx-auto'>
-        Because powering your life should be simple, reliable, and stress-free. Here's why homes and businesses trust us.
+        Because powering your life should be simple, reliable, and stress-free. Here&apos;s why homes and businesses trust us.
       </p>
 
       <div className='mt-12 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto'>

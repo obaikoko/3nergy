@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 const PowerInAction = () => {
@@ -95,10 +96,12 @@ const PowerInAction = () => {
           {installations[activeTab as keyof typeof installations].map((installation, index) => (
             <div key={index} className='bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg'>
               <div className='h-48 bg-gray-200 dark:bg-gray-700 relative'>
-                <img
+                <Image
                   src={installation.image}
                   alt={installation.title}
-                  className='w-full h-full object-cover'
+                  fill
+                  className='object-cover'
+                  sizes='(max-width: 768px) 100vw, 50vw'
                 />
               </div>
               <div className='p-6'>
@@ -124,7 +127,7 @@ const PowerInAction = () => {
         <div className='text-center mt-12'>
           <h3 className='text-2xl font-bold mb-4'>Ready to Go Solar?</h3>
           <p className='text-lg mb-6'>
-            Pick a package, request a quote, and let's power your future together.
+            Pick a package, request a quote, and let&apos;s power your future together.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
             <Button className='bg-green-600 hover:bg-green-700 px-8 py-3'>

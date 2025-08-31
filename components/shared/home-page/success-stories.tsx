@@ -1,7 +1,6 @@
 'use client'
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { Button } from '@/components/ui/button';
 import { ChevronLeft, ChevronRight, ChevronDown } from 'lucide-react';
 
 type StoryOption = {
@@ -115,20 +114,17 @@ const STORIES: SuccessStory[] = [
 
 export default function SuccessStories() {
   const [activeIndex, setActiveIndex] = useState<number>(0);
-  const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
   const [optionNameIndex, setOptionNameIndex] = useState<number>(STORIES[0].chosenOptionIndex);
 
   const story = STORIES[activeIndex];
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev - 1 + STORIES.length) % STORIES.length);
-    setSelectedOptionIndex(null);
     // option index will be reset in useEffect based on chosenOptionIndex
   };
 
   const handleNext = () => {
     setActiveIndex((prev) => (prev + 1) % STORIES.length);
-    setSelectedOptionIndex(null);
     // option index will be reset in useEffect based on chosenOptionIndex
   };
 
