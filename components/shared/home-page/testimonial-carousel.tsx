@@ -7,27 +7,21 @@ import TestimonialCard from './testimonial-card';
 const testimonials = [
   {
     quote:
-      'The website has elevated how customers see my fashion business. I used to compete mainly on price, but now clients choose me because my online presence shows the quality and professionalism of my work.',
+      'Running my shop was becoming impossible with rising fuel prices. Every day, I was spending more on diesel than I was making in sales. Cesol3nergy helped me switch to solar, and honestly, it\'s the best decision I\'ve made for my business. My monthly expenses have dropped drastically, and I can keep my freezers, lights, and POS machines running all day without stress. Customers even notice how consistent we are now. Solar is truly the future, and Cesol3nergy made it easy for me.',
+    name: 'Emeka Okeke',
+    business: 'Shop Owner, Lagos',
+  },
+  {
+    quote:
+      'As a developer, I\'m always looking for ways to make my properties more attractive to buyers. Partnering with Cesol3nergy added that edge. They installed a solar package for one of our estates, and the feedback from clients has been fantastic — buyers feel reassured knowing their homes will have steady, affordable power. The professionalism of the Cesol3nergy team also gave me confidence. This is not just about installations; it\'s about building long-term value.',
+    name: 'Adunni Adebayo',
+    business: 'Real Estate Developer, Lagos',
+  },
+  {
+    quote:
+      'Before Cesol3nergy, my family and I were always at the mercy of NEPA and the noise of generators. Since installing our solar system, we\'ve had constant power — no fuel costs, no blackouts. What impressed me most was how the team explained everything in simple terms and delivered exactly when they said they would. It feels good knowing my home now runs on clean energy, and I don\'t worry about bills piling up.',
     name: 'Fatima Abdullahi',
-    business: "Fatima's Fashion House, Abuja",
-  },
-  {
-    quote:
-      'Having a professional website has changed how people interact with my business. Customers now see me as the established electronics expert in the area, not just another shop. The WhatsApp integration makes it so easy for them to reach me.',
-    name: 'Emeka Okafor',
-    business: 'Okafor Electronics, Lagos',
-  },
-  {
-    quote:
-      'My online store has boosted my sales by 70%. Customers trust me more now that I have a professional digital presence.',
-    name: 'Aisha Mohammed',
-    business: "Aisha's Beauty Supply, Kano",
-  },
-  {
-    quote:
-      'Now that I have a professional website, I’ve gained corporate clients who never noticed my services before.',
-    name: 'Chinedu Umeh',
-    business: 'Umeh Consulting, Enugu',
+    business: 'Homeowner, Abuja',
   },
 ];
 
@@ -57,7 +51,7 @@ export default function TestimonialCarousel() {
   return (
     <>
       <h2 className='text-center text-gray-400 mb-6 font-extrabold'>
-        TRUSTED BY BUSINESSES ACROSS NIGERIA
+        TRUSTED BY BUSINESSES ACROSS AFRICA
       </h2>
       <div className='bg-background text-foreground relative w-full max-w-5xl mx-auto overflow-hidden'>
         <div

@@ -1,1 +1,1 @@
-export const APP_NAME: string = 'AISites.ng';
+export const APP_NAME: string = 'Cesol3nergy';
