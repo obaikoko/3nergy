@@ -13,19 +13,28 @@ const Menu = () => {
       {/* Desktop nav */}
       <nav className=' hidden md:flex items-center gap-2 flex-wrap'>
         <Button asChild variant='ghost'>
-          <Link href='/'>Home</Link>
+          <Link href='/#hero'>Home</Link>
         </Button>
         <Button asChild variant='ghost'>
-          <Link href='/about'>About</Link>
+          <Link href='/#success-stories'>Success Stories</Link>
         </Button>
         <Button asChild variant='ghost'>
-          <Link href='/admission'>Admission</Link>
+          <Link href='/#power-in-action'>Power in Action</Link>
         </Button>
         <Button asChild variant='ghost'>
-          <Link href='/gallery'>Gallery</Link>
+          <Link href='/#how-it-works'>How it Works</Link>
         </Button>
         <Button asChild variant='ghost'>
-          <Link href='/events'>Events</Link>
+          <Link href='/#features'>Features</Link>
+        </Button>
+        <Button asChild variant='ghost'>
+          <Link href='/#pricing'>Pricing</Link>
+        </Button>
+        <Button asChild variant='ghost'>
+          <Link href='/#faq'>FAQ</Link>
+        </Button>
+        <Button asChild variant='ghost'>
+          <Link href='/#contact'>Contact</Link>
         </Button>
       </nav>
 
@@ -38,16 +47,28 @@ const Menu = () => {
           <SheetContent className='flex flex-col items-start space-y-2 pt-6'>
             <SheetTitle>Menu</SheetTitle>
             <Button asChild variant='ghost'>
-              <Link href='/'>Home</Link>
+              <Link href='/#hero'>Home</Link>
             </Button>
             <Button asChild variant='ghost'>
-              <Link href='/about'>About</Link>
+              <Link href='/#success-stories'>Success Stories</Link>
             </Button>
             <Button asChild variant='ghost'>
-              <Link href='/admission'>Admission</Link>
+              <Link href='/#power-in-action'>Power in Action</Link>
             </Button>
             <Button asChild variant='ghost'>
-              <Link href='/events'>Events</Link>
+              <Link href='/#how-it-works'>How it Works</Link>
+            </Button>
+            <Button asChild variant='ghost'>
+              <Link href='/#features'>Features</Link>
+            </Button>
+            <Button asChild variant='ghost'>
+              <Link href='/#pricing'>Pricing</Link>
+            </Button>
+            <Button asChild variant='ghost'>
+              <Link href='/#faq'>FAQ</Link>
+            </Button>
+            <Button asChild variant='ghost'>
+              <Link href='/#contact'>Contact</Link>
             </Button>
           </SheetContent>
         </Sheet>

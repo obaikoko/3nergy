@@ -20,96 +20,96 @@ type SuccessStory = {
 };
 
 const STORIES: SuccessStory[] = [
-  {
-    businessName: 'Mrs. Oladipo',
-    personAndLocation: 'Homeowner • Ikeja, Lagos',
-    tag: 'Uninterrupted Power',
-    challenge:
-      'Constant blackouts and the stress of running a noisy, costly generator.',
-    story:
-      'Mrs. Oladipo\'s family was constantly at the mercy of NEPA, and their generator often disrupted peace at home. With fuel costs rising, she needed a lasting solution. Cesol3nergy installed a 1.5kVA Basic Solar Package with a portable power station, giving her uninterrupted power for essential appliances like lights, fans, and TV. Today, she enjoys quiet nights, zero fuel stress, and the peace of mind that her home runs on clean energy. What stood out most was how clearly Cesol3nergy explained everything and delivered exactly as promised.',
-    options: [
-      { name: '1.5kVA Basic Package' },
-      { name: 'Portable Power Station' },
-      { name: 'Essential Appliances' }
-    ],
-    chosenOptionIndex: 1,
-    websiteUrl: 'cesol3nergy.com',
-    images: [
-      {
-        src: 'https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Solar panels on rooftop at sunset',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Solar farm under clear sky',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1505739896310-3ce8a83f40d5?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Engineer checking solar inverters',
-      },
-    ],
-  },
-  {
-    businessName: 'Mr. Eze',
-    personAndLocation: 'Small Business Owner • Enugu',
-    tag: 'Cost Savings',
-    challenge:
-      'Rising fuel expenses draining business profits.',
-    story:
-      'Running his popular provision shop became almost impossible for Mr. Eze as diesel costs ate up most of his profit. He reached out to Cesol3nergy, and after assessment, the team installed a 5kVA Standard Solar Package to power his freezers, lights, and POS machines. Within the first month, his expenses dropped drastically — no more fuel stress or noisy generator breakdowns. Customers noticed his improved consistency, and his profits became sustainable again. For him, switching to solar with Cesol3nergy was the smartest move for his business.',
-    options: [
-      { name: '5kVA Standard Package' },
-      { name: 'Business Appliances' },
-      { name: 'Profit Optimization' }
-    ],
-    chosenOptionIndex: 0,
-    websiteUrl: 'cesol3nergy.com',
-    images: [
-      {
-        src: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Clean energy solar farm with blue sky',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1505672678657-cc7037095e60?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Close-up of solar cells pattern',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1567113463300-102a7eb5b7db?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Solar panels in desert landscape',
-      },
-    ],
-  },
-  {
-    businessName: 'Mr. Hassan',
-    personAndLocation: 'Real Estate Developer • Lekki, Lagos',
-    tag: 'Property Value',
-    challenge:
-      'Making new estate properties more attractive to buyers.',
-    story:
-      'Mr. Hassan wanted his estate project to stand out in the competitive Lagos property market. Buyers were concerned about reliable power, so he partnered with Cesol3nergy. The team designed and installed a 20kVA Premium Solar Package across selected estate units, ensuring reliable and affordable power for residents. Feedback from prospective buyers was overwhelmingly positive, and sales improved significantly. Mr. Hassan says the installation didn\'t just boost demand — it added long-term value to his estate. He describes Cesol3nergy\'s professionalism and delivery as a true "game-changer" for developers.',
-    options: [
-      { name: '20kVA Premium Package' },
-      { name: 'Estate Integration' },
-      { name: 'Property Enhancement' }
-    ],
-    chosenOptionIndex: 2,
-    websiteUrl: 'cesol3nergy.com',
-    images: [
-      {
-        src: 'https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Worker inspecting solar panel array',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1581093588401-16ec7c49d4fa?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Solar roof on modern home',
-      },
-      {
-        src: 'https://images.unsplash.com/photo-1603714228682-9b6b8f9eb5a0?q=80&w=1600&auto=format&fit=crop',
-        alt: 'Sunset over solar installation',
-      },
-    ],
-  },
+	{
+		businessName: 'Mrs. Oladipo',
+		personAndLocation: 'Homeowner • Ikeja, Lagos',
+		tag: 'Uninterrupted Power',
+		challenge:
+			'Constant blackouts and the stress of running a noisy, costly generator.',
+		story:
+			'Mrs. Oladipo\'s family was constantly at the mercy of NEPA, and their generator often disrupted peace at home. With fuel costs rising, she needed a lasting solution. Cesol3nergy installed a 1.5kVA Basic Solar Package with a portable power station, giving her uninterrupted power for essential appliances like lights, fans, and TV. Today, she enjoys quiet nights, zero fuel stress, and the peace of mind that her home runs on clean energy. What stood out most was how clearly Cesol3nergy explained everything and delivered exactly as promised.',
+		options: [
+			{ name: '1.5kVA Basic Package' },
+			{ name: 'Portable Power Station' },
+			{ name: 'Essential Appliances' }
+		],
+		chosenOptionIndex: 1,
+		websiteUrl: 'cesol3nergy.com',
+		images: [
+			{
+				src: '/1.5kva.jpg',
+				alt: '1.5kVA Basic Solar Package',
+			},
+			{
+				src: '/portable-power-station.jpg',
+				alt: 'Portable Power Station',
+			},
+			{
+				src: '/essential-appliance.jpg',
+				alt: 'Essential Appliances',
+			},
+		],
+	},
+	{
+		businessName: 'Mr. Eze',
+		personAndLocation: 'Small Business Owner • Enugu',
+		tag: 'Cost Savings',
+		challenge:
+			'Rising fuel expenses draining business profits.',
+		story:
+			'Running his popular provision shop became almost impossible for Mr. Eze as diesel costs ate up most of his profit. He reached out to Cesol3nergy, and after assessment, the team installed a 5kVA Standard Solar Package to power his freezers, lights, and POS machines. Within the first month, his expenses dropped drastically — no more fuel stress or noisy generator breakdowns. Customers noticed his improved consistency, and his profits became sustainable again. For him, switching to solar with Cesol3nergy was the smartest move for his business.',
+		options: [
+			{ name: '5kVA Standard Package' },
+			{ name: 'Business Appliances' },
+			{ name: 'Profit Optimization' }
+		],
+		chosenOptionIndex: 0,
+		websiteUrl: 'cesol3nergy.com',
+		images: [
+			{
+				src: '/5kva.jpg',
+				alt: '5kVA Standard Solar Package',
+			},
+			{
+				src: '/basic-appliance.jpg',
+				alt: 'Business Appliances',
+			},
+			{
+				src: '/profit-optimization.jpg',
+				alt: 'Profit Optimization',
+			},
+		],
+	},
+	{
+		businessName: 'Mr. Hassan',
+		personAndLocation: 'Real Estate Developer • Lekki, Lagos',
+		tag: 'Property Value',
+		challenge:
+			'Making new estate properties more attractive to buyers.',
+		story:
+			'Mr. Hassan wanted his estate project to stand out in the competitive Lagos property market. Buyers were concerned about reliable power, so he partnered with Cesol3nergy. The team designed and installed a 20kVA Premium Solar Package across selected estate units, ensuring reliable and affordable power for residents. Feedback from prospective buyers was overwhelmingly positive, and sales improved significantly. Mr. Hassan says the installation didn\'t just boost demand — it added long-term value to his estate. He describes Cesol3nergy\'s professionalism and delivery as a true "game-changer" for developers.',
+		options: [
+			{ name: '20kVA Premium Package' },
+			{ name: 'Estate Integration' },
+			{ name: 'Property Enhancement' }
+		],
+		chosenOptionIndex: 2,
+		websiteUrl: 'cesol3nergy.com',
+		images: [
+			{
+				src: '/20kva.jpg',
+				alt: '20kVA Premium Solar Package',
+			},
+			{
+				src: '/estate-integration.jpg',
+				alt: 'Estate Integration',
+			},
+			{
+				src: '/property-enhancement.jpg',
+				alt: 'Property Enhancement',
+			},
+		],
+	},
 ];
 
 export default function SuccessStories() {

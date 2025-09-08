@@ -14,18 +14,18 @@ import TestimonialCarousel from '@/components/shared/home-page/testimonial-carou
 const HomePage = () => {
   return (
     <>
-      <Hero />
-      <TestimonialCarousel/>
-      <SuccessStories />
-      <PowerInAction />
-      <HowItWork />
-      <FeaturesSection />
-      <PricingSection/>
-      <FeatureTwo/>
-      <ReferralRewards />
-      <KnowledgeHub />
-      <FaqSection/>
-      <CTASection/>
+      <section id='hero'><Hero /></section>
+      <section id='testimonials'><TestimonialCarousel/></section>
+      <section id='success-stories'><SuccessStories /></section>
+      <section id='power-in-action'><PowerInAction /></section>
+      <section id='how-it-works'><HowItWork /></section>
+      <section id='features'><FeaturesSection /></section>
+      <section id='pricing'><PricingSection/></section>
+      <section id='solutions'><FeatureTwo/></section>
+      <section id='referral'><ReferralRewards /></section>
+      <section id='knowledge-hub'><KnowledgeHub /></section>
+      <section id='faq'><FaqSection/></section>
+      <section id='contact'><CTASection/></section>
     </>
   );
 };
