@@ -140,7 +140,7 @@ export default function SuccessStories() {
         {/* Tag */}
         <div className='text-center mb-6'>
           <div
-            className='inline-block bg-green-100 text-green-700 text-sm px-3 py-1 font-bold rounded-full'
+            className='inline-block bg-purple-100 text-purple-700 text-sm px-3 py-1 font-bold rounded-full'
             aria-label='Section tag: Real Power Transformation'
           >
             Real Power Transformation
@@ -166,8 +166,8 @@ export default function SuccessStories() {
             </span>
 
             {/* Challenge Box */}
-            <div className='mt-6 border border-l-4 border-l-orange-400 border-gray-700 rounded-lg p-4'>
-              <p className='text-orange-400 font-semibold'>The Challenge</p>
+            <div className='mt-6 border border-l-4 border-l-purple-400 border-gray-700 rounded-lg p-4'>
+              <p className='text-purple-400 font-semibold'>The Challenge</p>
               <p className=' mt-1'>
                 {story.challenge}
               </p>

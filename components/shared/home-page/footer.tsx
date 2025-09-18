@@ -9,7 +9,7 @@ export default function Footer() {
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-between py-4 px-6 border-b border-gray-800'>
         {/* Left Logo */}
         <div className='flex items-center space-x-2'>
-          <span className='text-lg font-bold bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent'>
+          <span className='text-lg font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent'>
             {APP_NAME}
           </span>
         </div>

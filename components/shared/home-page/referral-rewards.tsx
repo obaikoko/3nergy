@@ -5,12 +5,12 @@ import { Gift, Users, TrendingUp } from 'lucide-react';
 
 const ReferralRewards = () => {
   return (
-    <section className='py-20 bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800'>
+    <section className='py-20 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-900 dark:to-gray-800'>
       <div className='container mx-auto px-4 text-center'>
         <div className='max-w-4xl mx-auto'>
           {/* Header */}
           <div className='mb-12'>
-            <div className='inline-flex items-center gap-2 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 px-4 py-2 rounded-full text-sm font-medium mb-4'>
+            <div className='inline-flex items-center gap-2 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 px-4 py-2 rounded-full text-sm font-medium mb-4'>
               <Gift className='w-4 h-4' />
               <span>Coming Soon</span>
             </div>
@@ -25,8 +25,8 @@ const ReferralRewards = () => {
           {/* Features Grid */}
           <div className='grid md:grid-cols-3 gap-8 mb-12'>
             <div className='bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg'>
-              <div className='w-12 h-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center mx-auto mb-4'>
-                <Gift className='w-6 h-6 text-green-600 dark:text-green-400' />
+              <div className='w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-full flex items-center justify-center mx-auto mb-4'>
+                <Gift className='w-6 h-6 text-purple-600 dark:text-purple-400' />
               </div>
               <h3 className='text-xl font-bold mb-2'>Cash Rewards</h3>
               <p className='text-gray-600 dark:text-gray-300'>
@@ -58,7 +58,7 @@ const ReferralRewards = () => {
           {/* CTA Button */}
           <div className='mb-8'>
             <Button 
-              className='bg-green-600 hover:bg-green-700 px-8 py-4 text-lg font-semibold'
+              className='bg-purple-600 hover:bg-purple-700 px-8 py-4 text-lg font-semibold'
               disabled
             >
               Notify Me When It Launches
@@ -70,15 +70,15 @@ const ReferralRewards = () => {
             <h3 className='text-xl font-bold mb-3'>How It Will Work</h3>
             <div className='space-y-3 text-left'>
               <div className='flex items-start gap-3'>
-                <span className='w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>1</span>
+                <span className='w-6 h-6 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>1</span>
                 <p className='text-gray-600 dark:text-gray-300'>Share your unique referral link with friends, family, or business contacts</p>
               </div>
               <div className='flex items-start gap-3'>
-                <span className='w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>2</span>
+                <span className='w-6 h-6 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>2</span>
                 <p className='text-gray-600 dark:text-gray-300'>When they install a solar system through your link, you earn rewards</p>
               </div>
               <div className='flex items-start gap-3'>
-                <span className='w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>3</span>
+                <span className='w-6 h-6 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-0.5'>3</span>
                 <p className='text-gray-600 dark:text-gray-300'>Redeem your rewards for cash or use them for your own solar services</p>
               </div>
             </div>

@@ -62,7 +62,7 @@ const KnowledgeHub = () => {
                     <span className='text-sm text-gray-500 dark:text-gray-400'>
                       {article.readTime}
                     </span>
-                    <Button variant='ghost' className='text-green-600 hover:text-green-700 p-0 h-auto'>
+                    <Button variant='ghost' className='text-purple-600 hover:text-purple-700 p-0 h-auto'>
                       Read More →
                     </Button>
                   </div>
@@ -73,7 +73,7 @@ const KnowledgeHub = () => {
 
           {/* CTA */}
           <div className='text-center'>
-            <Button className='bg-green-600 hover:bg-green-700 px-8 py-3 text-lg'>
+            <Button className='bg-purple-600 hover:bg-purple-700 px-8 py-3 text-lg'>
               Read Updates
             </Button>
           </div>
@@ -89,9 +89,9 @@ const KnowledgeHub = () => {
                 <input
                   type='email'
                   placeholder='Enter your email'
-                  className='flex-1 px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 dark:bg-gray-700 dark:text-white'
+                  className='flex-1 px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white'
                 />
-                <Button className='bg-green-600 hover:bg-green-700 px-6 py-3 whitespace-nowrap'>
+                <Button className='bg-purple-600 hover:bg-purple-700 px-6 py-3 whitespace-nowrap'>
                   Subscribe
                 </Button>
               </div>

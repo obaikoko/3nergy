@@ -70,7 +70,7 @@ export default function TestimonialCarousel() {
         {/* Left Arrow */}
         <button
           onClick={prevSlide}
-          className='bg-background text-foreground absolute top-1/2 left-0 transform -translate-y-1/2  p-2 rounded-full shadow-md  transition'
+          className='bg-background text-foreground absolute top-1/2 left-0 transform -translate-y-1/2 hover:bg-gray-200  p-2 rounded-full shadow-md  transition'
         >
           <ChevronLeft size={20} />
         </button>
@@ -78,7 +78,7 @@ export default function TestimonialCarousel() {
         {/* Right Arrow */}
         <button
           onClick={nextSlide}
-          className='absolute top-1/2 right-0 transform -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-200 transition'
+          className='absolute top-1/2 right-0 transform -translate-y-1/2  p-2 rounded-full shadow-md hover:bg-gray-200 transition'
         >
           <ChevronRight size={20} />
         </button>

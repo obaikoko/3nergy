@@ -18,13 +18,13 @@ const PowerInAction = () => {
 			{
 				title: '1.5kVA Home Setup',
 				description: 'Perfect for small families and essential appliances',
-				image: '/1.5kva.jpg',
+				image: '/1.5kva.png',
 				features: ['Lights & Fans', 'TV & Laptop', 'Phone Charging', 'Small Appliances']
 			},
 			{
 				title: '2.5kVA Student Setup',
 				description: 'Ideal for students and young professionals',
-				image: '/portable-power-station.jpg',
+				image: '/2.5kva.png',
 				features: ['Study Lights', 'Laptop Power', 'Fan & AC', 'Kitchen Essentials']
 			}
 		],
@@ -32,7 +32,7 @@ const PowerInAction = () => {
 			{
 				title: '3.5kVA Family Setup',
 				description: 'Comprehensive power for mid-sized families',
-				image: '/essential-appliance.jpg',
+				image: '/3.5kva.jpg',
 				features: ['Multiple ACs', 'Freezers', 'Washing Machine', 'Home Office']
 			},
 			{
@@ -46,13 +46,13 @@ const PowerInAction = () => {
 			{
 				title: '7.5kVA Estate Setup',
 				description: 'Premium power for large homes and estates',
-				image: '/estate-integration.jpg',
+				image: '/7.5kva.png',
 				features: ['Multiple Units', 'Central AC', 'Advanced Security', 'Smart Home Integration']
 			},
 			{
 				title: '15kVA Commercial Setup',
 				description: 'Industrial-grade power for large businesses',
-				image: '/20kva.jpg',
+				image: '/15kva.png',
 				features: ['Heavy Machinery', 'Multiple Floors', 'Data Centers', 'Manufacturing Equipment']
 			}
 		]
@@ -80,7 +80,7 @@ const PowerInAction = () => {
 								onClick={() => setActiveTab(tab.id)}
 								className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
 									activeTab === tab.id
-										? 'bg-green-500 text-white'
+										? 'bg-purple-500 text-white'
 										: 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white'
 								}`}
 							>
@@ -110,12 +110,12 @@ const PowerInAction = () => {
 								<div className='space-y-2'>
 									{installation.features.map((feature, featureIndex) => (
 										<div key={featureIndex} className='flex items-center text-sm'>
-											<span className='w-2 h-2 bg-green-500 rounded-full mr-3'></span>
+											<span className='w-2 h-2 bg-purple-500 rounded-full mr-3'></span>
 											{feature}
 										</div>
 									))}
 								</div>
-								<Button className='w-full mt-4 bg-green-600 hover:bg-green-700'>
+								<Button className='w-full mt-4 bg-purple-600 hover:bg-purple-700'>
 									Get Quote for This Setup
 								</Button>
 							</div>
@@ -130,7 +130,7 @@ const PowerInAction = () => {
 						Pick a package, request a quote, and let&apos;s power your future together.
 					</p>
 					<div className='flex flex-col sm:flex-row gap-4 justify-center'>
-						<Button className='bg-green-600 hover:bg-green-700 px-8 py-3'>
+						<Button className='bg-purple-600 hover:bg-purple-700 px-8 py-3'>
 							Start My Solar Journey
 						</Button>
 						<Button variant='outline' className='px-8 py-3'>

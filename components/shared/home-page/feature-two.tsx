@@ -13,41 +13,41 @@ export default function FeatureTwo() {
       </p>
 
       <div className='mt-8 mb-8'>
-        <Button className='bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg'>
+        <Button className='bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg'>
           Register for SolarSpark Training
         </Button>
       </div>
 
       <div className='mt-12 grid md:grid-cols-3 gap-6 max-w-6xl mx-auto'>
         <FeatureCard
-          icon={<BookOpen className='w-6 h-6 text-green-500' />}
+          icon={<BookOpen className='w-6 h-6 text-purple-500' />}
           title='Hands-On Training'
           description='Learn by doing, not just theory. Gain practical skills that prepare you for real-world solar installations.'
           clientFavorite
         />
         <FeatureCard
-          icon={<Globe className='w-6 h-6 text-green-500' />}
+          icon={<Globe className='w-6 h-6 text-purple-500' />}
           title='Globally Recognized Curriculum'
           description='Access world-class solar training that meets international standards and keeps you competitive anywhere.'
         />
         <FeatureCard
-          icon={<TrendingUp className='w-6 h-6 text-green-500' />}
+          icon={<TrendingUp className='w-6 h-6 text-purple-500' />}
           title='High Earning Potential'
           description='Solar is one of the fastest-growing industries. With the right skills, you can start a profitable career or business.'
           clientFavorite
         />
         <FeatureCard
-          icon={<Users className='w-6 h-6 text-green-500' />}
+          icon={<Users className='w-6 h-6 text-purple-500' />}
           title='Job & Partnership Opportunities'
           description='Through Cesol3nergy&apos;s network, graduates can connect with projects, jobs, and business opportunities in the solar sector.'
         />
         <FeatureCard
-          icon={<Clock className='w-6 h-6 text-green-500' />}
+          icon={<Clock className='w-6 h-6 text-purple-500' />}
           title='Flexible Learning'
           description='Training options are designed to fit your schedule, whether you&apos;re a student, working professional, or entrepreneur.'
         />
         <FeatureCard
-          icon={<Zap className='w-6 h-6 text-green-500' />}
+          icon={<Zap className='w-6 h-6 text-purple-500' />}
           title='Be Part of the Energy Future'
           description='Join the movement driving Nigeria and Africa toward cleaner, more reliable, and sustainable power.'
           clientFavorite

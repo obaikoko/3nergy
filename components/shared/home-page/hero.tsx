@@ -5,14 +5,14 @@ export default function Hero() {
     <section className='bg-background text-foreground py-20'>
       <div className='container mx-auto text-center px-4'>
         {/* Tag */}
-        <div className='inline-block font-bold bg-green-100 text-green-700 text-sm px-2  rounded-full mb-6'>
+        <div className='inline-block font-bold bg-purple-100 text-purple-700 text-sm px-2  rounded-full mb-6'>
           Made for Homes and Businesses across Africa
         </div>
 
         {/* Heading */}
         <h1 className='text-4xl md:text-5xl font-bold leading-tight max-w-4xl mx-auto'>
           Choose Your Solar Package. <br />
-          <span className='bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent'>
+          <span className='bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent'>
             Get a Custom Quote in Minutes.
           </span>
         </h1>
@@ -26,7 +26,7 @@ export default function Hero() {
         <div className='mt-8 flex justify-center gap-4 flex-wrap'>
           <Button
             size='lg'
-            className='bg-green-600 hover:bg-green-700 text-white font-semibold px-6'
+            className='bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6'
           >
             Explore Packages →
           </Button>

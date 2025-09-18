@@ -2,7 +2,7 @@ const HowItWork = () => {
   return (
     <section className=' bg-background text-foreground px-8 py-16 text-center'>
       <div className='mb-4'>
-        <span className='bg-green-700 text-white px-3 py-1 rounded-full text-sm'>
+        <span className='bg-purple-700 text-white px-3 py-1 rounded-full text-sm'>
           How it works
         </span>
       </div>
@@ -13,7 +13,7 @@ const HowItWork = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6'>
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             1
           </div>
           <h3 className='font-bold mb-2'>Select Your Preferred Package</h3>
@@ -23,7 +23,7 @@ const HowItWork = () => {
         </div>
 
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             2
           </div>
           <h3 className='font-bold mb-2'>Tell Us What You&apos;re Powering</h3>
@@ -33,7 +33,7 @@ const HowItWork = () => {
         </div>
 
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             3
           </div>
           <h3 className='font-bold mb-2'>Get Two Tailored Quotes</h3>
@@ -43,7 +43,7 @@ const HowItWork = () => {
         </div>
 
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             4
           </div>
           <h3 className='font-bold mb-2'>Choose Your Favorite</h3>
@@ -53,7 +53,7 @@ const HowItWork = () => {
         </div>
 
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             5
           </div>
           <h3 className='font-bold mb-2'>Pay & Get Installed</h3>
@@ -63,7 +63,7 @@ const HowItWork = () => {
         </div>
 
         <div className=' p-6 rounded-lg text-center'>
-          <div className='bg-green-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
+          <div className='bg-purple-400 p-4 rounded-full w-12 h-12 mx-auto mb-4'>
             6
           </div>
           <h3 className='font-bold mb-2'>Enjoy Solar Freedom</h3>

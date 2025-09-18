@@ -4,7 +4,7 @@ export default function PricingSection() {
   return (
     <section className='py-20  text-center'>
       <div className='mb-10'>
-        <span className='bg-green-700  px-4 py-1 rounded-full text-sm font-medium'>
+        <span className='bg-purple-700  px-4 py-1 rounded-full text-sm font-medium'>
           Choose your plan
         </span>
         <h2 className='text-3xl md:text-4xl font-bold mt-4'>

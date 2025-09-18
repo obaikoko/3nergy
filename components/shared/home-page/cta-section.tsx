@@ -2,6 +2,7 @@
 
 import { CheckCircle, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 export default function CTASection() {
   return (
@@ -16,29 +17,28 @@ export default function CTASection() {
       {/* Features Row */}
       <div className='flex flex-wrap justify-center items-center gap-6 mt-6 '>
         <div className='flex items-center gap-2'>
-          <CheckCircle className='text-green-500 w-5 h-5' />
+          <CheckCircle className='text-purple-500 w-5 h-5' />
           <span>No Long-Term Contracts</span>
         </div>
         <div className='flex items-center gap-2'>
-          <Clock className='text-green-500 w-5 h-5' />
+          <Clock className='text-purple-500 w-5 h-5' />
           <span>No Hidden Monthly Fees</span>
         </div>
         <div className='flex items-center gap-2'>
-          <CheckCircle className='text-green-500 w-5 h-5' />
+          <CheckCircle className='text-purple-500 w-5 h-5' />
           <span>Professional Solar Results You Can Rely On</span>
         </div>
       </div>
 
       {/* Buttons */}
       <div className='mt-8 flex flex-col md:flex-row justify-center gap-4'>
-        <Button className='bg-green-600 hover:bg-green-700  text-lg px-6 py-5 rounded-lg'>
-          Get a free Quote
-        </Button>
-        <Button
-          className='bg-white text-black px-6 py-5 rounded-lg text-lg shadow hover:bg-gray-200'
-        >
-          WhatsApp Us: +2349066996674
-        </Button>
+     
+             <Link href='https://wa.me/2349066996674?text=Hello%20there!' className='bg-purple-600 hover:bg-purple-700  text-lg px-6 py-1 rounded-lg' >              Get a free Quote
+</Link>
+
+   <Link href='https://wa.me/2349066996674?text=Hello%20there!' className='bg-white text-black px-6 py-1 rounded-lg text-lg shadow hover:bg-gray-200' >    WhatsApp Us: +2349066996674</Link>
+
+        
       </div>
 
       {/* Footer Note */}
