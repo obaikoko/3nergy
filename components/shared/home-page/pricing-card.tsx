@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
+import Link from 'next/link';
 
 interface PricingCardProps {
   title: string;
@@ -21,40 +22,44 @@ export default function PricingCard({
   return (
     <div
       className={`relative rounded-2xl p-6 border transition-all duration-300 
-      ${
-        popular
-          ? 'border-purple-500 '
-          : 'border-gray-700 bg-gray-700/60'
-      } 
-      ${comingSoon ? 'opacity-60' : ''}`}
+      ${popular ? "border-purple-500 " : "border-gray-700 bg-gray-700/60"} 
+      ${comingSoon ? "opacity-60" : ""}`}
     >
       {/* Badge */}
       {popular && (
-        <span className='absolute -top-3 left-6 bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium'>
+        <span className="absolute -top-3 left-6 bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
           ⭐ Most Popular
         </span>
       )}
       {comingSoon && (
-        <span className='absolute -top-3 left-6 bg-gray-700 text-white px-3 py-1 rounded-full text-sm font-medium'>
+        <span className="absolute -top-3 left-6 bg-gray-700 text-white px-3 py-1 rounded-full text-sm font-medium">
           🚀 Coming Soon
         </span>
       )}
 
       {/* Title */}
-      <h3 className='text-2xl font-bold mb-2'>{title}</h3>
-      <p className='text-3xl font-extrabold text-purple-500'>{price}</p>
-      <p className=' mt-2'>{description}</p>
+      <h3 className="text-2xl font-bold mb-2">{title}</h3>
+      <p className="text-3xl font-extrabold text-purple-500">{price}</p>
+      <p className=" mt-2">{description}</p>
 
       {/* Features */}
-      <ul className='mt-6 space-y-3'>
+      <ul className="mt-6 space-y-3">
         {features.map((feature, idx) => (
-          <li key={idx} className='flex items-center '>
-            <Check className='h-5 w-5 text-purple-500 mr-2' />
+          <li key={idx} className="flex items-center ">
+            <Check className="h-5 w-5 text-purple-500 mr-2" />
             {feature}
           </li>
         ))}
       </ul>
-      <Button className='bg-purple-500 w-full mx-auto my-8 p-6' >Get Started Now</Button>
+      <Button asChild className="bg-purple-500 w-full mx-auto my-8 p-6">
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfgI8xGsu-S0zR09U6U0XTiBUaV3XalMFAQ4cI4h-d_tEtV9A/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Get Started Now
+        </Link>
+      </Button>
     </div>
   );
 }
