@@ -10,7 +10,7 @@ const Header = () => {
       <div className="mx-auto max-w-screen-xl px-4 flex justify-between items-center py-2">
         <Link href="/" className="flex items-center space-x-2">
           <span className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-            <Image alt="Cesol3nergy" width={80} height={40} src="/logo.png" />
+            <Image alt="Cesol3nergy" width={60} height={40} src="/logo.png" />
           </span>
         </Link>
 
